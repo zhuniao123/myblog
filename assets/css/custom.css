@@ -1,0 +1,9 @@
+/* 
+  Force 3-column layout for card lists on the homepage and other list pages
+  This applies to screens wider than 768px.
+*/
+@media (min-width: 768px) {
+  .card-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

@@ -5,8 +5,9 @@
 theme = "blowfish" # UNCOMMENT THIS LINE
 # baseURL = "https://your_domain.com/"
 defaultContentLanguage = "zh-cn"
+
 # languageCode = "en"
-# pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
+pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true
 summaryLength = 0
@@ -17,6 +18,14 @@ buildFuture = false
 enableEmoji = true
 
 # googleAnalytics = "G-XXXXXXXXX"
+
+[languages]
+  [languages.zh-cn]
+    languageName = "简体中文"
+    weight = 1
+#  [languages.en]     # 其余语言块删掉或注释
+#  [languages.it]
+#  [languages.ja]
 
 [pagination]
   pagerSize = 100

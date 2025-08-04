@@ -1,0 +1,15 @@
+:root {
+  --color-primary: #007bff; /* A bright blue, similar to weaxsey.org */
+  --color-secondary: #6c757d;
+  --color-text: #212529;
+  --color-background: #ffffff;
+  --color-neutral: #f8f9fa;
+}
+
+:root.dark {
+  --color-primary: #007bff;
+  --color-secondary: #6c757d;
+  --color-text: #dee2e6;
+  --color-background: #121212;
+  --color-neutral: #1e1e1e;
+}
